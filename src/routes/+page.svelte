@@ -1,6 +1,10 @@
 <h1>Welcome to SvelteKit</h1>
 <p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
 
+<script>
+  import { darkTheme } from "../style"; 
+</script>
+
 <style>
     .hoverable {
         cy: 50;
@@ -41,3 +45,7 @@
 
     <polygon points="0,100 50,25 50,75 100,0" fill="none" stroke="url(#myGradient)" />
 </svg>
+
+<div class="{ darkTheme }">
+  <p>Teste</p>
+</div>
