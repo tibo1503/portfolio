@@ -8,16 +8,14 @@
     </button>
     <style>
         button {
-            background-color: #f76027;
-            color: white;
+            background-color: #000000;
             border: none;
-            border-radius: 4px;
-            padding: 0.5rem;
+            border-radius: 8px;
+            padding: 16px;
             text-transform: uppercase;
-            
+            transition: background-color 0.3s;
         }
         :global(body.dark-mode) button {
-            background-color: #0084f6;
-            color: white;
+            background-color: #ffffff;
         }
     </style>
