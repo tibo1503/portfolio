@@ -1,5 +1,5 @@
-<script context="module">
-	  import { base } from '$app/paths';
+<script>
+	  /** @type {import('./$types').PageData} */
       export let data;
 </script>
 

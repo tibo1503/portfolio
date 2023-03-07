@@ -6,7 +6,7 @@ export function load({ params }) {
   if (isNaN(project_id)) {
       throw error(404, 'Not found');
   }
- 
+
   return {
     title: 'Hello world!',
     content: String(project_id)
