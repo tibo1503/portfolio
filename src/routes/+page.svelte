@@ -1,4 +1,5 @@
 <h1>Welcome to SvelteKit</h1>
+<a href="/#test">test</a>
 <p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
 
 <style>
@@ -41,3 +42,6 @@
 
     <polygon points="0,100 50,25 50,75 100,0" fill="none" stroke="url(#myGradient)" />
 </svg>
+
+<img src="https://images.pexels.com/photos/1624496/pexels-photo-1624496.jpeg?auto=compress&cs=tinysrgb&w=400" alt="">
+<div id="test">blor</div>
